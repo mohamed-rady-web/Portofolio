@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Rady | Junior .NET Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="mouse-spotlight"></div>
+    <div class="bg-gradient-overlay"></div>
+
+    <div class="preloader">
+        <div class="loader-core"></div>
+        <div class="loader-text">INITIALIZING WORKSPACE...</div>
+    </div>
+
+    <nav class="navbar glass-nav">
+        <div class="logo gradient-cyan">M</div>
+        <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact" class="btn-hire magnetic">Hire Me</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <canvas id="hero-particles"></canvas>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <p class="small-caps reveal">HELLO, I'M</p>
+                    <h1 class="massive-title reveal delay-1">MOHAMED RADY</h1>
+                    <div class="subtitle-wrapper reveal delay-2">
+                        <span id="typewriter" class="gradient-purple"></span><span class="cursor">|</span>
+                    </div>
+                    <p class="hero-desc reveal delay-3">
+                        Motivated Junior Backend Developer with real professional experience building APIs, enterprise systems, authentication flows, database solutions, and scalable web applications using .NET and Node.js technologies.
+                    </p>
+                    <div class="hero-cta reveal delay-4">
+                        <a href="#projects" class="btn btn-primary magnetic">View Projects</a>
+                        <a href="/cv.pdf" class="btn btn-secondary magnetic">Download CV</a>
+                        <a href="#contact" class="btn btn-text">Contact Me <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal delay-3">
+                    <div class="code-window glass-card">
+                        <div class="window-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        </div>
+                        <pre><code><span class="keyword">public class</span> <span class="class">Developer</span> {
+    <span class="keyword">public string</span> Name { <span class="keyword">get</span>; } = <span class="string">"Mohamed"</span>;
+    <span class="keyword">public string</span> Role { <span class="keyword">get</span>; } = <span class="string">"Junior .NET"</span>;
+    
+    <span class="keyword">public void</span> <span class="method">BuildSystem</span>() {
+        <span class="class">API</span>.Deploy(Architecture.Clean);
+        <span class="class">Database</span>.Optimize();
+    }
+}</code></pre>
+                    </div>
+                    <i class="fab fa-microsoft float-icon csharp" title="C# / .NET"></i>
+                    <i class="fas fa-database float-icon sql" title="SQL Server"></i>
+                    <i class="fab fa-node-js float-icon node" title="Node.js"></i>
+                    <i class="fas fa-server float-icon api" title="API"></i>
+                    <i class="fab fa-github float-icon github" title="GitHub"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title reveal">About <span class="gradient-cyan">Me</span></h2>
+            <div class="about-grid reveal delay-1">
+                <div class="about-text glass-card">
+                    <p>Mohamed Rady is a dedicated junior software developer based in Benha, Egypt, currently studying Computers & Artificial Intelligence while building real-world business systems professionally.</p>
+                    <p>He combines academic learning, practical backend experience, and strong ambition to grow into a top-tier software engineer.</p>
+                </div>
+                <div class="focus-areas glass-card">
+                    <h3>Focus Areas</h3>
+                    <ul class="focus-list">
+                        <li><i class="fas fa-check-circle"></i> ASP.NET Core & Razor Pages</li>
+                        <li><i class="fas fa-check-circle"></i> REST APIs & Architecture</li>
+                        <li><i class="fas fa-check-circle"></i> Authentication & Security</li>
+                        <li><i class="fas fa-check-circle"></i> SQL Server & Entity Framework</li>
+                        <li><i class="fas fa-check-circle"></i> Node.js & Express.js</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title reveal">Professional <span class="gradient-purple">Experience</span></h2>
+            <div class="timeline reveal delay-1">
+                <div class="timeline-item glass-card card-hover">
+                    <div class="timeline-marker cyan-glow"></div>
+                    <span class="date">Jun 2024 – Present</span>
+                    <h3>Junior .NET Developer</h3>
+                    <h4>Imobility Tech Team</h4>
+                    <p>Contributing to real production systems using .NET technologies, Razor Pages, APIs, security improvements, maintenance, and internal business solutions.</p>
+                </div>
+                <div class="timeline-item glass-card card-hover">
+                    <div class="timeline-marker purple-glow"></div>
+                    <span class="date">Jan 2024 – Jun 2024</span>
+                    <h3>Node.js Developer</h3>
+                    <h4>Webbing Agency</h4>
+                    <p>Worked on backend APIs, maintenance tasks, feature development, debugging, and improving application performance using Node.js and Express.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title reveal">Technical <span class="gradient-emerald">Arsenal</span></h2>
+            <div class="skills-grid">
+                <div class="skill-group glass-card reveal">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="tags">
+                        <span>ASP.NET Core</span><span>Razor Pages</span><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>JWT</span><span>Swagger</span><span>Postman</span>
+                    </div>
+                </div>
+                <div class="skill-group glass-card reveal delay-1">
+                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <div class="tags">
+                        <span>SQL Server</span><span>MongoDB</span><span>Entity Framework</span><span>LINQ</span><span>Mongoose</span>
+                    </div>
+                </div>
+                <div class="skill-group glass-card reveal delay-2">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="tags">
+                        <span>C#</span><span>JavaScript</span><span>OOP</span><span>SOLID</span><span>Repository Pattern</span><span>Data Structures</span><span>Algorithms</span>
+                    </div>
+                </div>
+                <div class="skill-group glass-card reveal delay-3">
+                    <h3><i class="fas fa-toolbox"></i> Tools & Familiarity</h3>
+                    <div class="tags">
+                        <span>Git</span><span>GitHub</span><span>Multer</span><span>Socket.io</span><span>NestJS</span><span>React.js</span><span>ASP.NET MVC</span><span>OAuth2</span><span>AutoMapper</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title reveal">Production <span class="gradient-cyan">Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card tilt-card reveal">
+                    <i class="fas fa-hard-hat card-icon cyan"></i>
+                    <h3>Prime Target International</h3>
+                    <p>Business website backend for construction company.</p>
+                    <div class="tech-badges"><span class="badge">Wordpress</span><span class="badge">Elementor</span></div>
+                    <a href="https://primetargetint.com/" class="project-link">View Site <i class="fas fa-angle-right"></i></a>
+                </div>
+                <div class="project-card glass-card tilt-card reveal delay-1">
+                    <i class="fas fa-briefcase card-icon purple"></i>
+                    <h3>Laysh Consulting</h3>
+                    <p>Professional consulting company platform.</p>
+                    <div class="tech-badges"><span class="badge">Wordpress</span><span class="badge">Elementor</span></div>
+                    <a href="https://laysh-consulting.com/" class="project-link">View Site <i class="fas fa-angle-right"></i></a>
+                </div>
+                <div class="project-card glass-card tilt-card reveal">
+                    <i class="fas fa-building card-icon cyan"></i>
+                    <h3>Enterprise Management Systems</h3>
+                    <p>Built internal business tools, backend systems, and management solutions for companies.</p>
+                    <div class="tech-badges"><span class="badge">ASP.NET Core</span><span class="badge">SQL Server</span></div>
+                    
+                </div>
+                <div class="project-card glass-card tilt-card reveal delay-1">
+                    <i class="fas fa-shopping-cart card-icon purple"></i>
+                    <h3>E-Commerce Platform</h3>
+                    <p>Users, products, orders, admin dashboard, payment integration, JWT auth, OTP verification.</p>
+                    <div class="tech-badges"><span class="badge">Node.js</span><span class="badge">MongoDB</span></div>
+                  
+                </div>
+                <div class="project-card glass-card tilt-card reveal delay-2">
+                    <i class="fas fa-users card-icon emerald"></i>
+                    <h3>Social Media API</h3>
+                    <p>Authentication, follows, posts, comments, likes, scalable endpoints.</p>
+                    <div class="tech-badges"><span class="badge">Express.js</span><span class="badge">REST</span></div>
+                   
+                </div>
+                <div class="project-card glass-card tilt-card reveal">
+                    <i class="fas fa-film card-icon cyan"></i>
+                    <h3>Movie Subscription App</h3>
+                    <p>Wallet system, premium plans, subscriptions, secure auth.</p>
+                    <div class="tech-badges"><span class="badge">.NET</span><span class="badge">Payments</span></div>
+                  
+                </div>
+                <div class="project-card glass-card tilt-card reveal delay-1">
+                    <i class="fas fa-check-square card-icon purple"></i>
+                    <h3>Todo Productivity App</h3>
+                    <p>Task management with authentication, CRUD operations, password recovery.</p>
+                    <div class="tech-badges"><span class="badge">Node.js</span><span class="badge">JWT</span></div>
+                    
+                </div>
+                <div class="project-card glass-card tilt-card reveal delay-2">
+                    <i class="fas fa-book card-icon emerald"></i>
+                    <h3>Book Management System</h3>
+                    <p>Simple structured backend with clean architecture.</p>
+                    <div class="tech-badges"><span class="badge">C#</span><span class="badge">Entity FW</span></div>
+                    
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title reveal">Academic <span class="gradient-purple">Foundation</span></h2>
+            <div class="education-card glass-card reveal delay-1">
+                <i class="fas fa-graduation-cap edu-icon"></i>
+                <div class="edu-content">
+                    <h3>Computers & Artificial Intelligence Student</h3>
+                    <span class="grade">Grade: Good</span>
+                    <p>Currently completing undergraduate studies while actively working in software development, combining theory with hands-on production experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="why" class="section">
+            <h2 class="section-title reveal">Why <span class="gradient-cyan">Hire Me</span></h2>
+            <div class="why-grid">
+                <div class="why-item glass-card reveal"><i class="fas fa-laptop-code"></i> Real Experience as a Junior</div>
+                <div class="why-item glass-card reveal delay-1"><i class="fab fa-microsoft"></i> Strong .NET Backend Foundation</div>
+                <div class="why-item glass-card reveal delay-2"><i class="fas fa-network-wired"></i> API Development Skills</div>
+                <div class="why-item glass-card reveal"><i class="fas fa-rocket"></i> Fast Learner</div>
+                <div class="why-item glass-card reveal delay-1"><i class="fas fa-puzzle-piece"></i> Problem Solver</div>
+                <div class="why-item glass-card reveal delay-2"><i class="fas fa-users"></i> Team Collaboration</div>
+                <div class="why-item glass-card reveal"><i class="fas fa-broom"></i> Clean Code Mindset</div>
+                <div class="why-item glass-card reveal delay-1"><i class="fas fa-chart-line"></i> Growth Mentality</div>
+            </div>
+        </section>
+
+        <section id="stats" class="section stats-container glass-card reveal">
+            <div class="stat">
+                <h3 class="counter gradient-cyan" data-target="2">0</h3>
+                <p>Years Learning & Building</p>
+            </div>
+            <div class="stat">
+                <h3 class="counter gradient-purple" data-target="8">0</h3>
+                <p>Real Projects</p>
+            </div>
+            <div class="stat">
+                <h3 class="counter gradient-emerald" data-target="100">0</h3>
+                <p>APIs / Features Worked On</p>
+            </div>
+            <div class="stat">
+                <h3 class="counter gradient-cyan" data-target="1000">0</h3>
+                <p>Hours Coding</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title reveal">Initiate <span class="gradient-purple">Contact</span></h2>
+            <div class="contact-wrapper glass-card reveal delay-1">
+                <div class="contact-info">
+                    <h3>Let's build scalable systems.</h3>
+                    <p class="contact-detail"><i class="fas fa-phone cyan"></i> +201276335510</p>
+                    <p class="contact-detail"><i class="fas fa-map-marker-alt purple"></i> Benha, Egypt</p>
+                </div>
+                <form id="contactForm" class="form">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder="Name">
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder="Email">
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="4" required placeholder="Message"></textarea>
+                        <div class="input-line"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 magnetic">Send Message</button>
+                    <p id="formStatus" class="status-msg"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/mohamed-rady-72a8b7380?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/mohamed-rady-web"><i class="fab fa-github"></i></a>
+                <a href="mailto:mohamed.rady99990@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/qr/OJPHBJ5KPZVBB1"><i class="fas fa-phone"></i></a>
+            </div>
+            <p>&copy; <span id="year"></span> Mohamed Rady — Junior .NET Developer</p>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
